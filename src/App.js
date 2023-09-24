@@ -4,6 +4,35 @@ import question from './data/question.json';
 
 function App() {
   console.log(question);
+ 
+
+
+  let [selectedoptions, setselectedoptions]=useState('');
+
+  const getOptonClass=(q ,option)=>{
+    let style="list-group-item";
+    for(let i=0 ; i<selectedoptions.length;i++){
+      if(selectedoptions[i].qid===q.id && selectedoptions[i].option ===option){
+        if(q.answer === option){
+          style=style+" bg-success";
+        }
+        else{
+        style=style+" bg-danger";
+        }
+      }
+    }
+    return style;
+
+  }
+
+
+  const onoptionclick=(qid,option)=>{
+    const ans={qid,option };
+    let copyArr=[...selectedoptions];
+      copyArr.push(ans);
+      setselectedoptions(copyArr);
+      console.log(copyArr)
+  }
   return (
     <div className='container my-5'>
       <h1>Online Quiz</h1>
@@ -12,7 +41,10 @@ function App() {
           <div key={q.id}>
             <h5>{q.statement}</h5>
             <ul className="list-group  ">
-              {q.option.map(option => <li key={option} className="list-group-item active">
+              {q.option.map(option => 
+              <li key={option} 
+              className={getOptonClass(q, option)}
+              onClick={()=>onoptionclick(q.id ,option)}>
                 {option}
               </li>)}
             </ul>
@@ -23,6 +55,7 @@ function App() {
   )
 
 }
+
 
 
 
