@@ -1,0 +1,35 @@
+[
+    {
+        "id":1,
+        "statement":"1. what is national sports of pakistan.",
+        "option":[
+            "cricket",
+            "hockey",
+            "football",
+            "badminton"
+        ],
+        "answer":"Hockey"
+    },
+    {
+        "id":2 ,
+        "statement":"2. what is national animal of pakistan.",
+        "option":[
+            "markhor",
+            "lion",
+            "elephant",
+            "kangroo"
+        ],
+        "answer":"markhor"
+    },
+    {
+        "id":3,
+        "statement":"3. what is capital of pakistan.",
+        "option":[
+            "lahore",
+            "islamabad",
+            "karachi",
+            "multan"
+        ],
+        "answer":"islamabad"
+    }
+]
