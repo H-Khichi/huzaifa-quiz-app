@@ -31,5 +31,69 @@
             "multan"
         ],
         "answer":"islamabad"
+    },{
+        "id":4,
+        "statement":"4. what is national sports of pakistan.",
+        "option":[
+            "cricket",
+            "hockey",
+            "football",
+            "badminton"
+        ],
+        "answer":"hockey"
+    },
+    {
+        "id":5 ,
+        "statement":"5. what is national animal of pakistan.",
+        "option":[
+            "markhor",
+            "lion",
+            "elephant",
+            "kangroo"
+        ],
+        "answer":"markhor"
+    },
+    {
+        "id":6,
+        "statement":"6. what is capital of pakistan.",
+        "option":[
+            "lahore",
+            "islamabad",
+            "karachi",
+            "multan"
+        ],
+        "answer":"islamabad"
+    },{
+        "id":7,
+        "statement":"7. what is national sports of pakistan.",
+        "option":[
+            "cricket",
+            "hockey",
+            "football",
+            "badminton"
+        ],
+        "answer":"hockey"
+    },
+    {
+        "id":8 ,
+        "statement":"8. what is national animal of pakistan.",
+        "option":[
+            "markhor",
+            "lion",
+            "elephant",
+            "kangroo"
+        ],
+        "answer":"markhor"
+    },
+    {
+        "id":9,
+        "statement":"9. what is capital of pakistan.",
+        "option":[
+            "lahore",
+            "islamabad",
+            "karachi",
+            "multan"
+        ],
+        "answer":"islamabad"
     }
 ]
