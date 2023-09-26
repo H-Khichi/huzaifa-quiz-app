@@ -31,7 +31,7 @@ function App() {
         {
           quiz.map(q=>(
             <div key={q.id}>
-              <h5>{q.statement}</h5>
+              <h5 class="que">{q.statement}</h5>
               <ul className="list-group  ">
                 {q.option.map(option => 
                 <li key={option} 
